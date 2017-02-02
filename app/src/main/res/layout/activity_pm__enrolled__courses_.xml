@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sid.lms.PM_Enrolled_Courses_Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainee name:"
+        android:id="@+id/tvtraineename"
+        android:textSize="22dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvtraineename"
+        android:textSize="22dp"
+        android:layout_marginLeft="30dp"
+        android:text="Trainee x"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="Enrolled Courses:"
+        android:layout_marginTop="50dp"/>
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="90dp"
+        android:background="#ce2e35"
+        android:id="@+id/ScrollView"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ll"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approve"
+        android:id="@+id/approve"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ScrollView"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

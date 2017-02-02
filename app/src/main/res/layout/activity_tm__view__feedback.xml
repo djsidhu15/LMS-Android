@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sid.lms.TM_View_Feedback">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewActivity:"
+        android:textSize="22dp"
+        android:id="@+id/traineeusername"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainer"
+        android:textSize="18dp"
+        android:id="@+id/trainer"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_alignBaseline="@+id/trainer"
+        android:layout_toRightOf="@+id/trainer"
+        android:layout_marginLeft="50dp"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingbar"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/trainer"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ratingbar"
+        android:hint="Feedback"
+        android:layout_marginTop="20dp"
+        android:background="#e71b41"
+        android:id="@+id/tvfeedback"/>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sid.lms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Trainee_User_Info" />
+        <activity android:name=".Register_Activity" />
+        <activity android:name=".Trainee_Main_Activity" />
+        <activity android:name=".Trainee_Course_Info" />
+        <activity android:name=".Trainee_Enrolled_Courses" />
+        <activity android:name=".Trainee_Send_Feedback" />
+        <activity android:name=".Trainer_Main_Activity" />
+        <activity android:name=".Trainer_Attendance" />
+        <activity android:name=".Trainer_Trainee_List" />
+        <activity android:name=".Trainer_View_Activity" />
+        <activity android:name=".TM_Main_Activity" />
+        <activity android:name=".TM_Trainee_List_Activity" />
+        <activity android:name=".TM_View_Feedback" />
+        <activity android:name=".PM_Main_Activity" />
+        <activity android:name=".PM_Trainees_List_Activity" />
+        <activity android:name=".PM_Trainee_Info" />
+        <activity android:name=".PM_Enrolled_Courses_Activity" />
+        <activity android:name=".PM_Trainers_List" />
+        <activity android:name=".PM_Trainer_Info" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Admin_Members_View" />
+        <activity android:name=".Admin_Insert_Course" />
+        <activity android:name=".Admin_Course_List" />
+        <activity android:name=".Admin_Course_Info_View" />
+        <activity android:name=".Admin_Actor_Insert" />
+        <activity android:name=".Admin_Actor_List" />
+        <activity android:name=".Admin_Actor_Info" />
+        <activity android:name=".TM_Trainee_Enrolled_Courses" />
+        <activity android:name=".TM_Allocate_Trainers" />
+        <activity android:name=".Admin_Trainer_Courses" />
+        <activity android:name=".Admin_Applied_Courses_List" />
+        <activity android:name=".Admin_Approved_Table" />
+        <activity android:name=".Admin_Feedback" />
+        <activity android:name=".PM_Trainee_Courses" />
+        <activity android:name=".Admin_Attendance" />
+        <activity android:name=".TM_View_Attendance" />
+        <activity
+            android:name=".TM_View_Attendance2"
+            android:label="@string/title_activity_tm__view__attendance2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TM_View_Attendance_2"></activity>
+    </application>
+
+</manifest>

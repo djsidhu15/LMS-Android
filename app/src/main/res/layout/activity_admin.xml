@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sid.lms.Admin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert details:"
+        android:textSize="22dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainee"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/badmintrainee"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainer"
+        android:id="@+id/btrainer"
+        android:layout_toRightOf="@+id/badmintrainee"
+        android:layout_alignBaseline="@+id/badmintrainee"
+    android:layout_marginLeft="110dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Training Manager"
+        android:id="@+id/btrainingmanager"
+        android:layout_marginTop="150dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Manager"
+        android:id="@+id/bprojectmanager"
+        android:layout_marginTop="200dp"
+        android:layout_alignBaseline="@+id/btrainingmanager"
+        android:layout_toRightOf="@id/btrainingmanager"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="courses"
+        android:id="@+id/bcourses"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btrainingmanager"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tainer's courses"
+        android:id="@+id/trainercourses"
+        android:layout_toRightOf="@+id/bcourses"
+        android:layout_alignBaseline="@+id/bcourses"
+        android:layout_marginLeft="40dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Applied courses"
+        android:id="@+id/bappliedcourses"
+        android:layout_below="@+id/bcourses"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approved courses"
+        android:id="@+id/approved"
+        android:layout_alignBaseline="@+id/bappliedcourses"
+        android:layout_toRightOf="@+id/bappliedcourses"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:layout_below="@+id/approved"
+        android:id="@+id/feedback"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:layout_toRightOf="@+id/feedback"
+        android:layout_alignBaseline="@+id/feedback"
+        android:id="@+id/attendance"/>
+</RelativeLayout>

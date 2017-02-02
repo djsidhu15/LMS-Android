@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.0.0_855aa3b3d84e9636d52c5278d68a153e9b0d484b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0_bec4721de4e546b6889084f70d7edcf05fd773ab\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="05a04960208967c2b893dd1f40fbf0c2a99c9e56">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5c6e0d753d80b8403010849b577148d22cd3fb66\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_adfe300a3724f71cbbcf547abca6f828f19a2e30\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sidharth\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_780cfb798492367c4dce39010e94956ddc2745c1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="813615cf79ed0f7010b4d24405fd24f8b376d596">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3ae2b439554c7825e70ad6846b6cd15c2ba03d1f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_ecdaa12c7a9eda0d7c4498e2f0077fede210e8b2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_8ee873d93cb33e20580958c45743bb9c570df277\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_f8f01ce45ce77a34378840aa4c92de5cf00609ba\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="C:\Users\Sidharth\Desktop\Android Projects\LMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_51e771894e74c9f06c1758bce54c87b546508941\classes.dex" />
+    </item>
+
+</items>
